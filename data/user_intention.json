@@ -1,0 +1,399 @@
+[
+    {
+        "intent": "Search",
+        "intent_category": "SearchCity",
+        "user_queries": [
+            {
+                "query": "What cities can I visit in Japan?",
+                "possible_answers": [
+                    "Tokyo",
+                    "Kyoto",
+                    "Osaka",
+                    "Hiroshima",
+                    "Fukuoka"
+                ]
+            },
+            {
+                "query": "I want to find popular cities in Japan.",
+                "possible_answers": [
+                    "Top cities include Tokyo, Kyoto, and Osaka."
+                ]
+            },
+            {
+                "query": "Recommend me some cities to explore in Japan.",
+                "possible_answers": [
+                    "Consider Sapporo for winter or Okinawa for beaches."
+                ]
+            },
+            {
+                "query": "Which cities are best for cherry blossom viewing?",
+                "possible_answers": [
+                    "Tokyo, Kyoto, and Hirosaki are famous for cherry blossoms."
+                ]
+            },
+            {
+                "query": "What are some lesser-known cities in Japan?",
+                "possible_answers": [
+                    "Check out Kanazawa, Takayama, and Matsumoto."
+                ]
+            },
+            {
+                "query": "Which cities have the best nightlife?",
+                "possible_answers": [
+                    "Tokyo, Osaka, and Fukuoka are great for nightlife."
+                ]
+            },
+            {
+                "query": "Where can I find historical cities in Japan?",
+                "possible_answers": [
+                    "Kyoto and Nara are known for their rich history."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Search",
+        "intent_category": "SearchFood",
+        "user_queries": [
+            {
+                "query": "What are the best local foods in Tokyo?",
+                "possible_answers": [
+                    "Sushi",
+                    "Ramen",
+                    "Tempura",
+                    "Monjayaki"
+                ]
+            },
+            {
+                "query": "Where can I find ramen in Osaka?",
+                "possible_answers": [
+                    "Popular spots include Ichiran and Ippudo."
+                ]
+            },
+            {
+                "query": "Suggest some famous dishes in Kyoto.",
+                "possible_answers": [
+                    "Try kaiseki, yudofu, and yuba."
+                ]
+            },
+            {
+                "query": "What street foods should I try in Japan?",
+                "possible_answers": [
+                    "Takoyaki, okonomiyaki, and yakitori are great choices."
+                ]
+            },
+            {
+                "query": "What desserts are popular in Japan?",
+                "possible_answers": [
+                    "Matcha ice cream, mochi, and dorayaki."
+                ]
+            },
+            {
+                "query": "Where can I find vegan food in Tokyo?",
+                "possible_answers": [
+                    "Check out places like T's Tantan and Ain Soph."
+                ]
+            },
+            {
+                "query": "What seafood dishes should I try?",
+                "possible_answers": [
+                    "Sashimi, sushi, and grilled fish are must-tries."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Search",
+        "intent_category": "SearchTransportation",
+        "user_queries": [
+            {
+                "query": "What’s the best way to get around Kyoto?",
+                "possible_answers": [
+                    "Bicycles, buses, and the subway are convenient options."
+                ]
+            },
+            {
+                "query": "How can I travel from Tokyo to Osaka?",
+                "possible_answers": [
+                    "You can take the Shinkansen (bullet train) or a domestic flight."
+                ]
+            },
+            {
+                "query": "Is there a train from Hiroshima to Nagasaki?",
+                "possible_answers": [
+                    "Yes, take the Shinkansen to Hakata and transfer to a limited express train."
+                ]
+            },
+            {
+                "query": "What’s the best transportation for sightseeing in Tokyo?",
+                "possible_answers": [
+                    "Consider using the subway and buses for easy access."
+                ]
+            },
+            {
+                "query": "Are taxis readily available in Japan?",
+                "possible_answers": [
+                    "Yes, taxis are available but can be expensive."
+                ]
+            },
+            {
+                "query": "How do I get to Mount Fuji from Tokyo?",
+                "possible_answers": [
+                    "You can take a bus or train to the 5th station."
+                ]
+            },
+            {
+                "query": "What are the options for airport transfers?",
+                "possible_answers": [
+                    "Airport limousines, shuttle buses, and trains are available."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Search",
+        "intent_category": "SearchActivity",
+        "user_queries": [
+            {
+                "query": "What activities can I do in Hokkaido?",
+                "possible_answers": [
+                    "Skiing, hot springs, and visiting the Sapporo Snow Festival."
+                ]
+            },
+            {
+                "query": "Tell me about things to do in Okinawa.",
+                "possible_answers": [
+                    "Snorkeling, visiting Shurijo Castle, and enjoying beautiful beaches."
+                ]
+            },
+            {
+                "query": "What are the must-see attractions in Yokohama?",
+                "possible_answers": [
+                    "Visit Minato Mirai, Chinatown, and the Cup Noodles Museum."
+                ]
+            },
+            {
+                "query": "What cultural experiences are available in Japan?",
+                "possible_answers": [
+                    "Participate in a tea ceremony, visit a sumo match, or stay in a ryokan."
+                ]
+            },
+            {
+                "query": "What outdoor activities can I enjoy in Japan?",
+                "possible_answers": [
+                    "Hiking, cycling, and hot spring bathing."
+                ]
+            },
+            {
+                "query": "What are some unique festivals in Japan?",
+                "possible_answers": [
+                    "Gion Matsuri in Kyoto, Sapporo Snow Festival, and Nebuta Matsuri in Aomori."
+                ]
+            },
+            {
+                "query": "What historical sites should I visit?",
+                "possible_answers": [
+                    "Hiroshima Peace Memorial, Himeji Castle, and Nijo Castle."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Plan",
+        "intent_category": "PlanCity",
+        "user_queries": [
+            {
+                "query": "I want to plan a trip to Tokyo.",
+                "possible_answers": [
+                    "Consider 4-5 days to explore attractions like Shibuya, Shinjuku, and Asakusa."
+                ]
+            },
+            {
+                "query": "Help me create an itinerary for Kyoto.",
+                "possible_answers": [
+                    "Visit Kinkaku-ji, Fushimi Inari Shrine, and Arashiyama Bamboo Grove."
+                ]
+            },
+            {
+                "query": "How can I spend 3 days in Osaka?",
+                "possible_answers": [
+                    "Day 1: Osaka Castle, Day 2: Universal Studios, Day 3: Dotonbori."
+                ]
+            },
+            {
+                "query": "What’s a good route for traveling through Japan?",
+                "possible_answers": [
+                    "Start in Tokyo, visit Kyoto, then head to Osaka and Hiroshima."
+                ]
+            },
+            {
+                "query": "What should I include in a week-long itinerary?",
+                "possible_answers": [
+                    "Tokyo, Kyoto, Osaka, and Hiroshima are great stops."
+                ]
+            },
+            {
+                "query": "How can I explore the countryside in Japan?",
+                "possible_answers": [
+                    "Consider visiting Shirakawa-go and the Japanese Alps."
+                ]
+            },
+            {
+                "query": "What are the best places to stay in Tokyo?",
+                "possible_answers": [
+                    "Shinjuku, Shibuya, and Ginza offer great accommodations."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Plan",
+        "intent_category": "PlanFood",
+        "user_queries": [
+            {
+                "query": "I want to book a food tour in Tokyo.",
+                "possible_answers": [
+                    "Look for tours that include sushi, izakayas, and street food."
+                ]
+            },
+            {
+                "query": "Can you suggest a restaurant in Hiroshima?",
+                "possible_answers": [
+                    "Try Okonomi-mura for a variety of okonomiyaki options."
+                ]
+            },
+            {
+                "query": "Help me plan meals for my trip to Japan.",
+                "possible_answers": [
+                    "Include sushi, ramen, kaiseki, and local street foods in your itinerary."
+                ]
+            },
+            {
+                "query": "What are the best vegetarian options in Japan?",
+                "possible_answers": [
+                    "Explore shojin ryori (Buddhist vegetarian cuisine) and find vegan ramen."
+                ]
+            },
+            {
+                "query": "Where can I find the best sushi in Tokyo?",
+                "possible_answers": [
+                    "Check out Sukiyabashi Jiro or Sushi Saito."
+                ]
+            },
+            {
+                "query": "What food festivals should I attend in Japan?",
+                "possible_answers": [
+                    "Sapporo Snow Festival and Tokyo Ramen Show are popular."
+                ]
+            },
+            {
+                "query": "Can you recommend a local dish for each region?",
+                "possible_answers": [
+                    "Try okonomiyaki in Hiroshima, misokatsu in Nagoya, and sashimi in Tokyo."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Plan",
+        "intent_category": "PlanActivity",
+        "user_queries": [
+            {
+                "query": "What are some activities I should include in my itinerary?",
+                "possible_answers": [
+                    "Consider visiting historical sites, experiencing traditional festivals, and exploring nature."
+                ]
+            },
+            {
+                "query": "I need suggestions for a day in Kyoto.",
+                "possible_answers": [
+                    "Visit Kiyomizu-dera, explore Gion, and have lunch at a local cafe."
+                ]
+            },
+            {
+                "query": "Help me schedule a visit to Mt. Fuji.",
+                "possible_answers": [
+                    "Plan a day trip from Tokyo; take a bus or train to the 5th station."
+                ]
+            },
+            {
+                "query": "What seasonal activities can I do in Japan?",
+                "possible_answers": [
+                    "Enjoy cherry blossom viewing in spring, beach activities in summer, and skiing in winter."
+                ]
+            },
+            {
+                "query": "What are some good indoor activities during winter?",
+                "possible_answers": [
+                    "Visit museums, hot springs, and shopping centers."
+                ]
+            },
+            {
+                "query": "What adventure activities are available in Japan?",
+                "possible_answers": [
+                    "Try bungee jumping, paragliding, or hiking in national parks."
+                ]
+            },
+            {
+                "query": "Can you suggest family-friendly activities?",
+                "possible_answers": [
+                    "Visit theme parks like Disneyland Tokyo or Universal Studios Japan."
+                ]
+            },
+            {
+                "query": "What are some unique experiences in Japan?",
+                "possible_answers": [
+                    "Stay in a capsule hotel or experience a traditional tea ceremony."
+                ]
+            }
+        ]
+    },
+    {
+        "intent": "Plan",
+        "intent_category": "PlanStyle",
+        "user_queries": [
+            {
+                "query": "I prefer a luxury travel style for my trip.",
+                "possible_answers": [
+                    "Look for high-end hotels, gourmet dining, and private tours."
+                ]
+            },
+            {
+                "query": "I’m looking for a budget-friendly travel plan.",
+                "possible_answers": [
+                    "Use public transport, stay in hostels, and eat at local markets."
+                ]
+            },
+            {
+                "query": "I want to have a cultural experience in Japan.",
+                "possible_answers": [
+                    "Consider staying in a ryokan, attending a tea ceremony, and visiting temples."
+                ]
+            },
+            {
+                "query": "What’s a good mix of adventure and relaxation in Japan?",
+                "possible_answers": [
+                    "Incorporate hiking in the Japanese Alps and relaxing at an onsen."
+                ]
+            },
+            {
+                "query": "How can I plan a romantic getaway in Japan?",
+                "possible_answers": [
+                    "Consider a stay in a luxury ryokan and a private onsen experience."
+                ]
+            },
+            {
+                "query": "What options are there for eco-friendly travel?",
+                "possible_answers": [
+                    "Stay at eco-lodges and participate in local conservation projects."
+                ]
+            },
+            {
+                "query": "What are some popular travel styles among tourists?",
+                "possible_answers": [
+                    "Cultural tours, food tours, and adventure travel are popular."
+                ]
+            }
+        ]
+    }
+]
